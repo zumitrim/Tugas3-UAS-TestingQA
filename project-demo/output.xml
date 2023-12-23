@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.7 on win32)" generated="20231223 17:15:39.851" rpa="false" schemaversion="4">
+<suite id="s1" name="Test-Suite-1" source="C:\xampp\htdocs\website_login\project-demo\test-suite-1.robot">
+<test id="s1-t1" name="testcase-1" line="24">
+<kw name="Login Success">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOST}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231223 17:15:40.468" level="INFO">Opening browser 'chrome' to base url 'http://localhost/website_login/'.</msg>
+<status status="PASS" starttime="20231223 17:15:40.466" endtime="20231223 17:15:45.380"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:45.389" level="INFO">Typing text 'zulfahmi' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20231223 17:15:45.381" endtime="20231223 17:15:46.232"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-1}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:46.236" level="INFO">Typing text 'zulfahmi123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231223 17:15:46.233" endtime="20231223 17:15:47.063"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:47.067" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231223 17:15:47.064" endtime="20231223 17:15:47.713"/>
+</kw>
+<status status="PASS" starttime="20231223 17:15:40.466" endtime="20231223 17:15:47.714"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231223 17:15:47.716" endtime="20231223 17:15:50.177"/>
+</kw>
+<status status="PASS" starttime="20231223 17:15:40.464" endtime="20231223 17:15:50.181"/>
+</test>
+<test id="s1-t2" name="testcase-2" line="29">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOST}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231223 17:15:50.198" level="INFO">Opening browser 'chrome' to base url 'http://localhost/website_login/'.</msg>
+<status status="PASS" starttime="20231223 17:15:50.194" endtime="20231223 17:15:54.209"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:54.216" level="INFO">Typing text 'zulfahmi' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20231223 17:15:54.212" endtime="20231223 17:15:55.036"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-2}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:55.038" level="INFO">Typing text 'xxs12s2' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231223 17:15:55.037" endtime="20231223 17:15:55.578"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231223 17:15:55.585" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231223 17:15:55.581" endtime="20231223 17:15:56.107"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231223 17:15:56.109" endtime="20231223 17:15:58.580"/>
+</kw>
+<status status="PASS" starttime="20231223 17:15:50.190" endtime="20231223 17:15:58.584"/>
+</test>
+<test id="s1-t3" name="testcase-3" line="37">
+<kw name="Login Success">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOST}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231223 17:15:58.607" level="INFO">Opening browser 'chrome' to base url 'http://localhost/website_login/'.</msg>
+<status status="PASS" starttime="20231223 17:15:58.599" endtime="20231223 17:16:03.256"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:16:03.264" level="INFO">Typing text 'zulfahmi' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20231223 17:16:03.258" endtime="20231223 17:16:04.100"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-1}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231223 17:16:04.102" level="INFO">Typing text 'zulfahmi123' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231223 17:16:04.100" endtime="20231223 17:16:04.569"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231223 17:16:04.572" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231223 17:16:04.570" endtime="20231223 17:16:04.830"/>
+</kw>
+<status status="PASS" starttime="20231223 17:15:58.596" endtime="20231223 17:16:04.830"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@id='logout']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231223 17:16:04.835" level="INFO">Clicking element 'xpath://button[@id='logout']'.</msg>
+<status status="PASS" starttime="20231223 17:16:04.833" endtime="20231223 17:16:05.020"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231223 17:16:05.021" endtime="20231223 17:16:07.458"/>
+</kw>
+<status status="PASS" starttime="20231223 17:15:58.592" endtime="20231223 17:16:07.461"/>
+</test>
+<status status="PASS" starttime="20231223 17:15:39.854" endtime="20231223 17:16:07.471"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Test-Suite-1">Test-Suite-1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
